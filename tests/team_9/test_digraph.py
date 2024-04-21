@@ -1,4 +1,3 @@
-# This module imports the pytest library, which is a framework that makes it easy to write simple and scalable test cases.
 import pytest
 from lecture3_graph import *
 
