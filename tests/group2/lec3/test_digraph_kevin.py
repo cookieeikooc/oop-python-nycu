@@ -11,7 +11,8 @@ class TestDigraph:
         self.edge2 = Edge(self.node2, self.node3)
 
     def test_add_node(self):
-        self.graph.add_node(self.node1)
+# This line of code adds a node to the graph
+self.graph.add_node(self.node1)
         assert self.graph.has_node(self.node1)
         assert not self.graph.has_node(self.node2)
 
